@@ -1,0 +1,19 @@
+.Home{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 10px; */
+}
+.MainCard{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.HeadandCard{
+    gap: 20px;
+}
+.Notiandmodules{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 20px;
+}

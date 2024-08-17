@@ -1,0 +1,62 @@
+.student-info-container {
+    width:1123px;
+    height: 242px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #e0f7ff);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .student-id {
+    width: 221px;
+    height: 72px;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .student-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 0;
+  }
+  .name{
+    width: 188px;
+    height: 73px;
+  }
+  
+  .student-details {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 0;
+  }
+  
+  .image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .graduation-cap {
+    width: 150px;
+    height: 150px;
+    transform: rotate(28.13deg);
+  }
+  
+  .backpack {
+    width: 183px;
+    height: 183px;
+    transform: rotate(-8.84deg);
+  }
+  
