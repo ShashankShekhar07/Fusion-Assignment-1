@@ -3,14 +3,17 @@
     .header{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content:space-between;
         width: 1057px;
         height: 89px;
+        padding: 10px;
     }
     .header-container{
         display: flex;
         flex-direction: row;
         align-items: center;
+        gap:30px;
+        /* justify-content: center; */
         height:  86px;
         width: 421px;
     }
@@ -55,7 +58,7 @@
     width: 151px;
     height: 74px;
     border: none;
-    background-color: #DFE7F5;
+    background-color: #AEC8E5;
     color: black;
     cursor: pointer;
      border-radius: 4px;
@@ -65,18 +68,20 @@
   }
 
   .profile-text {
-    display: flex;
+    /* display: flex;
     margin-top: 25px ;
+    
     padding-top: 20px;
     padding: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+    margin-left: 15px;
     font-size : 32px;
-    line-height: 48px;
+   /* line-height: 48px;
     width: 151px;
     height: 100px;
     margin-top: 0;
-    text-align: center;
+    text-align: center; */
   }
   /*
 

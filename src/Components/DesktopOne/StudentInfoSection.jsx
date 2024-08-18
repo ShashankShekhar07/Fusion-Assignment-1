@@ -1,8 +1,7 @@
 import React from 'react';
 import './StudentInfoSection.css';
-import imgCap from './cap.png';  // Replace with the actual path to your image file
-import imgBackpack from './backpack.png';  // Replace with the actual path to your image file
-
+import imgCap from './cap.png';  
+import imgBackpack from './backpack.png'; 
 export default function StudentInfoSection() {
   return (
     <div className="student-info-container">

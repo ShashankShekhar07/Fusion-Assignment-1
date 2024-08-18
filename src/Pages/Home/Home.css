@@ -1,15 +1,22 @@
 .Home{
     display: flex;
     flex-direction: row;
+    margin: 0px;
     /* margin-right: 10px; */
 }
 .MainCard{
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin-left: 70px;
 }
 .HeadandCard{
-    gap: 20px;
+    /* gap: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 .Notiandmodules{
     display: flex;

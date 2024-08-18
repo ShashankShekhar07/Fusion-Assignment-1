@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "./img_leftarrow_1.png";
 import img2 from "./img_rightarrow_1.png"
-import img3 from "./img_frame_19.png";
+import img3 from "./zlatan.jpg";
 import './Header.css';
 
 export default function Header() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
-import logoIcon from './logo.png';  // Replace with the path to your logo image
-import dashboardIcon from './dashboard_icon.png';  // Replace with the actual path to your icon images
+import logoIcon from './download.jpeg';  
+import dashboardIcon from './dashboard_icon.png';  
 import modulesIcon from './modules_icon.png';
 import registrationIcon from './registration_icon.png';
 import coursesIcon from './courses_icon.png';
