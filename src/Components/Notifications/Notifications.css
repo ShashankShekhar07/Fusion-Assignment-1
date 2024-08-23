@@ -47,4 +47,11 @@
   .see-more:hover {
     text-decoration: underline;
   }
+
+  @media(max-width:1120){
+    .notifications-container{
+        width: 100px;
+    }
+  
+  }
   

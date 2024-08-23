@@ -29,3 +29,21 @@
     font-size: 18px;
     font-weight: bold;
   }
+  @media(max-width:1630px){
+    .modules-container{
+        width: 430px;
+    }
+  
+}
+@media(max-width:1120px){
+  .modules-container{
+      width: 600px;
+  }
+
+}
+
+@media(max-width:896px){
+  .modules-container{
+      width: 400px;
+  }
+}

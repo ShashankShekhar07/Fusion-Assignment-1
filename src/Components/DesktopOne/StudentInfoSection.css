@@ -60,3 +60,33 @@
     transform: rotate(-8.84deg);
   }
   
+  
+
+  @media(max-width:1430px){
+    .student-info-container{
+        width: 800px;
+    }
+   .image-box{
+    display: hidden;
+   }
+   .graduation-cap{
+    display: none;
+   }
+   .backpack{
+    display: none;
+   }
+}
+
+@media(max-width:1120px){
+    .student-info-container{
+        width: 600px;
+    }
+
+}
+
+@media(max-width:896px){
+    .student-info-container{
+        width: 400px;
+    }
+}
+

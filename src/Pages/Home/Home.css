@@ -24,3 +24,33 @@
     gap: 50px;
     margin: 20px;
 }
+@media(max-width:1120px){
+  .MainCard{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+  .Notiandmodules{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+@media(max-width:740px){
+
+  .Sidebar{
+    display: none;
+  }
+  .Home{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;*/ 
+    justify-content: center; 
+    
+  }
+  .MainCard{
+    margin-left: 5px;
+  }
+
+}

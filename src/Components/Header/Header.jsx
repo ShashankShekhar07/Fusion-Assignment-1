@@ -14,9 +14,11 @@ export default function Header() {
                   src={img3}
                 />
               </a>
-              <p class="profile-text">
-                Student
-              </p>
+              <select className="profile-name">
+  <option value="student"><h3>Student</h3></option>
+  <option value="faculty"><h3>Faculty</h3></option>
+    </select>
+              
             </div>
             <div class="arrows">
             <img
@@ -31,7 +33,7 @@ export default function Header() {
             />
             </div>
         </div>
-            <button class="logout-button">Logout</button>
+            <button class="logout-button"><h3>Logout</h3></button>
       
     </div>
   )

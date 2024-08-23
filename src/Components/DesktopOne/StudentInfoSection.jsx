@@ -11,8 +11,8 @@ export default function StudentInfoSection() {
         <p className="student-details">BTech, CSE SEM -4</p></div>
       </div>
       <div className="image-box">
-        <img src={imgCap} alt="Graduation Cap" className="graduation-cap" />
-        <img src={imgBackpack} alt="Backpack" className="backpack" />
+        {/* <img src={imgCap} alt="Graduation Cap" className="graduation-cap" /> */}
+        {/* <img src={imgBackpack} alt="Backpack" className="backpack" /> */}
       </div>
     </div>
   );
